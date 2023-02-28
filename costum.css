@@ -1,0 +1,74 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important; }
+
+.red {
+  border: 1px solid red; }
+
+.green {
+  border: 1px solid green; }
+
+.banner {
+  height: 100%;
+  background: url("./banner.jpg") center center no-repeat;
+  background-size: cover;
+  padding: 20px;
+  background-position: center; }
+  .banner .about-sign-in {
+    height: 80px;
+    width: 100%;
+    text-align: right; }
+    .banner .about-sign-in .about {
+      margin-top: 20px;
+      padding: 5px 10px;
+      display: inline-block;
+      text-decoration: none;
+      text-transform: uppercase; }
+    .banner .about-sign-in .sign-in {
+      margin-top: 20px;
+      padding: 5px 10px;
+      display: inline-block;
+      text-decoration: none;
+      text-transform: uppercase;
+      border: 1px solid green;
+      border-radius: 20px;
+      margin-right: 60px;
+      margin-left: 25px; }
+  .banner .logo {
+    height: 100px;
+    background: url("./hapoERP.png") center center no-repeat; }
+  .banner .conntent-center {
+    text-align: center;
+    height: 50px; }
+    .banner .conntent-center .gift,
+    .banner .conntent-center .clock,
+    .banner .conntent-center .like {
+      width: 22%;
+      display: inline-block;
+      height: 100px;
+      text-align: center; }
+    .banner .conntent-center span {
+      display: block; }
+    .banner .conntent-center img {
+      width: 50px;
+      height: 50px; }
+  .banner .text {
+    font-size: 17px;
+    text-align: center;
+    margin-top: 80px; }
+    .banner .text span {
+      color: green; }
+  .banner .btn-start-now {
+    text-align: center; }
+    .banner .btn-start-now button {
+      text-transform: uppercase;
+      border: 1px solid green;
+      border-radius: 20px;
+      margin-top: 40px;
+      padding: 10px 15px;
+      color: white;
+      background-color: green;
+      border: 2px solid black;
+      cursor: pointer; }
+
+/*# sourceMappingURL=costum.css.map */
